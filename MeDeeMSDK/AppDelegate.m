@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ProtocolBuffers.h"
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;

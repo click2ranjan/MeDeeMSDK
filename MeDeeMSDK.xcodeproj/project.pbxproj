@@ -18,6 +18,57 @@
 		8454CC9717B4E203006797D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8454CC9617B4E203006797D4 /* Default@2x.png */; };
 		8454CC9917B4E203006797D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8454CC9817B4E203006797D4 /* Default-568h@2x.png */; };
 		8454CC9C17B4E203006797D4 /* MeDeeMSDK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8454CC9A17B4E203006797D4 /* MeDeeMSDK.xcdatamodeld */; };
+		8454CCA917B4E2DE006797D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8454CCA817B4E2DE006797D4 /* Cocoa.framework */; };
+		8454CCB317B4E2DE006797D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8454CCB117B4E2DE006797D4 /* InfoPlist.strings */; };
+		8454CCB717B4E2DE006797D4 /* MeDeeMFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCB617B4E2DE006797D4 /* MeDeeMFramework.m */; };
+		8454CCC517B4EFB9006797D4 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8454CCC417B4EFB9006797D4 /* libProtocolBuffers.a */; };
+		8454CCC917B4F072006797D4 /* Protocol.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCC717B4F072006797D4 /* Protocol.pb.h */; settings = {ATTRIBUTES = (); }; };
+		8454CCCA17B4F072006797D4 /* Protocol.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCC817B4F072006797D4 /* Protocol.pb.m */; };
+		8454CCCC17B4F149006797D4 /* Bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCCB17B4F149006797D4 /* Bootstrap.h */; };
+		8454CCF517B4F213006797D4 /* AbstractMessage_Builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCCD17B4F212006797D4 /* AbstractMessage_Builder.h */; };
+		8454CCF617B4F213006797D4 /* AbstractMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCCE17B4F212006797D4 /* AbstractMessage_Builder.m */; };
+		8454CCF717B4F213006797D4 /* AbstractMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCCF17B4F212006797D4 /* AbstractMessage.h */; };
+		8454CCF817B4F213006797D4 /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCD017B4F212006797D4 /* AbstractMessage.m */; };
+		8454CCF917B4F213006797D4 /* CodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCD117B4F212006797D4 /* CodedInputStream.h */; };
+		8454CCFA17B4F213006797D4 /* CodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCD217B4F212006797D4 /* CodedInputStream.m */; };
+		8454CCFB17B4F213006797D4 /* CodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCD317B4F212006797D4 /* CodedOutputStream.h */; };
+		8454CCFC17B4F213006797D4 /* CodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCD417B4F212006797D4 /* CodedOutputStream.m */; };
+		8454CCFD17B4F213006797D4 /* ConcreteExtensionField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCD517B4F212006797D4 /* ConcreteExtensionField.h */; };
+		8454CCFE17B4F213006797D4 /* ConcreteExtensionField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCD617B4F212006797D4 /* ConcreteExtensionField.m */; };
+		8454CCFF17B4F213006797D4 /* ExtendableMessage_Builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCD717B4F212006797D4 /* ExtendableMessage_Builder.h */; };
+		8454CD0017B4F213006797D4 /* ExtendableMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCD817B4F212006797D4 /* ExtendableMessage_Builder.m */; };
+		8454CD0117B4F213006797D4 /* ExtendableMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCD917B4F212006797D4 /* ExtendableMessage.h */; };
+		8454CD0217B4F213006797D4 /* ExtendableMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCDA17B4F212006797D4 /* ExtendableMessage.m */; };
+		8454CD0317B4F213006797D4 /* ExtensionField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCDB17B4F212006797D4 /* ExtensionField.h */; };
+		8454CD0417B4F213006797D4 /* ExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCDC17B4F212006797D4 /* ExtensionRegistry.h */; };
+		8454CD0517B4F213006797D4 /* ExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCDD17B4F212006797D4 /* ExtensionRegistry.m */; };
+		8454CD0617B4F213006797D4 /* Field.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCDE17B4F212006797D4 /* Field.h */; };
+		8454CD0717B4F213006797D4 /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCDF17B4F212006797D4 /* Field.m */; };
+		8454CD0817B4F213006797D4 /* ForwardDeclarations.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE017B4F212006797D4 /* ForwardDeclarations.h */; };
+		8454CD0917B4F213006797D4 /* GeneratedMessage_Builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE117B4F212006797D4 /* GeneratedMessage_Builder.h */; };
+		8454CD0A17B4F213006797D4 /* GeneratedMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCE217B4F212006797D4 /* GeneratedMessage_Builder.m */; };
+		8454CD0B17B4F213006797D4 /* GeneratedMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE317B4F212006797D4 /* GeneratedMessage.h */; };
+		8454CD0C17B4F213006797D4 /* GeneratedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCE417B4F212006797D4 /* GeneratedMessage.m */; };
+		8454CD0D17B4F213006797D4 /* Message_Builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE517B4F212006797D4 /* Message_Builder.h */; };
+		8454CD0E17B4F213006797D4 /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE617B4F212006797D4 /* Message.h */; };
+		8454CD0F17B4F213006797D4 /* MutableExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE717B4F212006797D4 /* MutableExtensionRegistry.h */; };
+		8454CD1017B4F213006797D4 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCE817B4F212006797D4 /* MutableExtensionRegistry.m */; };
+		8454CD1117B4F213006797D4 /* MutableField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCE917B4F213006797D4 /* MutableField.h */; };
+		8454CD1217B4F213006797D4 /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCEA17B4F213006797D4 /* MutableField.m */; };
+		8454CD1317B4F213006797D4 /* TextFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCEB17B4F213006797D4 /* TextFormat.h */; };
+		8454CD1417B4F213006797D4 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCEC17B4F213006797D4 /* TextFormat.m */; };
+		8454CD1517B4F213006797D4 /* UnknownFieldSet_Builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCED17B4F213006797D4 /* UnknownFieldSet_Builder.h */; };
+		8454CD1617B4F213006797D4 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCEE17B4F213006797D4 /* UnknownFieldSet_Builder.m */; };
+		8454CD1717B4F213006797D4 /* UnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCEF17B4F213006797D4 /* UnknownFieldSet.h */; };
+		8454CD1817B4F213006797D4 /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCF017B4F213006797D4 /* UnknownFieldSet.m */; };
+		8454CD1917B4F213006797D4 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCF117B4F213006797D4 /* Utilities.h */; };
+		8454CD1A17B4F213006797D4 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCF217B4F213006797D4 /* Utilities.m */; };
+		8454CD1B17B4F213006797D4 /* WireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCF317B4F213006797D4 /* WireFormat.h */; };
+		8454CD1C17B4F213006797D4 /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CCF417B4F213006797D4 /* WireFormat.m */; };
+		8454CD1E17B5042C006797D4 /* Protocol.pb.m in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCC817B4F072006797D4 /* Protocol.pb.m */; };
+		8454CD1F17B5042C006797D4 /* MeDeeMFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CCB517B4E2DE006797D4 /* MeDeeMFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8454CD6417B50FD1006797D4 /* MedeemCORE.h in Headers */ = {isa = PBXBuildFile; fileRef = 8454CD6217B50FD1006797D4 /* MedeemCORE.h */; };
+		8454CD6517B50FD1006797D4 /* MedeemCORE.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454CD6317B50FD1006797D4 /* MedeemCORE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +87,63 @@
 		8454CC9617B4E203006797D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8454CC9817B4E203006797D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8454CC9B17B4E203006797D4 /* MeDeeMSDK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeDeeMSDK.xcdatamodel; sourceTree = "<group>"; };
+		8454CCA717B4E2DE006797D4 /* MeDeeMFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeDeeMFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8454CCA817B4E2DE006797D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		8454CCAB17B4E2DE006797D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8454CCAC17B4E2DE006797D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8454CCAD17B4E2DE006797D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8454CCB017B4E2DE006797D4 /* MeDeeMFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeDeeMFramework-Info.plist"; sourceTree = "<group>"; };
+		8454CCB217B4E2DE006797D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8454CCB417B4E2DE006797D4 /* MeDeeMFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeDeeMFramework-Prefix.pch"; sourceTree = "<group>"; };
+		8454CCB517B4E2DE006797D4 /* MeDeeMFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeDeeMFramework.h; sourceTree = "<group>"; };
+		8454CCB617B4E2DE006797D4 /* MeDeeMFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeDeeMFramework.m; sourceTree = "<group>"; };
+		8454CCC417B4EFB9006797D4 /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = MeDeeMSDK/libProtocolBuffers.a; sourceTree = "<group>"; };
+		8454CCC617B4EFC7006797D4 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolBuffers.h; path = MeDeeMSDK/ProtocolBuffers.h; sourceTree = "<group>"; };
+		8454CCC717B4F072006797D4 /* Protocol.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol.pb.h; sourceTree = "<group>"; };
+		8454CCC817B4F072006797D4 /* Protocol.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Protocol.pb.m; sourceTree = "<group>"; };
+		8454CCCB17B4F149006797D4 /* Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bootstrap.h; path = MeDeeMSDK/Bootstrap.h; sourceTree = "<group>"; };
+		8454CCCD17B4F212006797D4 /* AbstractMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractMessage_Builder.h; path = MeDeeMSDK/AbstractMessage_Builder.h; sourceTree = "<group>"; };
+		8454CCCE17B4F212006797D4 /* AbstractMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractMessage_Builder.m; path = MeDeeMSDK/AbstractMessage_Builder.m; sourceTree = "<group>"; };
+		8454CCCF17B4F212006797D4 /* AbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractMessage.h; path = MeDeeMSDK/AbstractMessage.h; sourceTree = "<group>"; };
+		8454CCD017B4F212006797D4 /* AbstractMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractMessage.m; path = MeDeeMSDK/AbstractMessage.m; sourceTree = "<group>"; };
+		8454CCD117B4F212006797D4 /* CodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodedInputStream.h; path = MeDeeMSDK/CodedInputStream.h; sourceTree = "<group>"; };
+		8454CCD217B4F212006797D4 /* CodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodedInputStream.m; path = MeDeeMSDK/CodedInputStream.m; sourceTree = "<group>"; };
+		8454CCD317B4F212006797D4 /* CodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodedOutputStream.h; path = MeDeeMSDK/CodedOutputStream.h; sourceTree = "<group>"; };
+		8454CCD417B4F212006797D4 /* CodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodedOutputStream.m; path = MeDeeMSDK/CodedOutputStream.m; sourceTree = "<group>"; };
+		8454CCD517B4F212006797D4 /* ConcreteExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteExtensionField.h; path = MeDeeMSDK/ConcreteExtensionField.h; sourceTree = "<group>"; };
+		8454CCD617B4F212006797D4 /* ConcreteExtensionField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteExtensionField.m; path = MeDeeMSDK/ConcreteExtensionField.m; sourceTree = "<group>"; };
+		8454CCD717B4F212006797D4 /* ExtendableMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtendableMessage_Builder.h; path = MeDeeMSDK/ExtendableMessage_Builder.h; sourceTree = "<group>"; };
+		8454CCD817B4F212006797D4 /* ExtendableMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtendableMessage_Builder.m; path = MeDeeMSDK/ExtendableMessage_Builder.m; sourceTree = "<group>"; };
+		8454CCD917B4F212006797D4 /* ExtendableMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtendableMessage.h; path = MeDeeMSDK/ExtendableMessage.h; sourceTree = "<group>"; };
+		8454CCDA17B4F212006797D4 /* ExtendableMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtendableMessage.m; path = MeDeeMSDK/ExtendableMessage.m; sourceTree = "<group>"; };
+		8454CCDB17B4F212006797D4 /* ExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtensionField.h; path = MeDeeMSDK/ExtensionField.h; sourceTree = "<group>"; };
+		8454CCDC17B4F212006797D4 /* ExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtensionRegistry.h; path = MeDeeMSDK/ExtensionRegistry.h; sourceTree = "<group>"; };
+		8454CCDD17B4F212006797D4 /* ExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtensionRegistry.m; path = MeDeeMSDK/ExtensionRegistry.m; sourceTree = "<group>"; };
+		8454CCDE17B4F212006797D4 /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Field.h; path = MeDeeMSDK/Field.h; sourceTree = "<group>"; };
+		8454CCDF17B4F212006797D4 /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Field.m; path = MeDeeMSDK/Field.m; sourceTree = "<group>"; };
+		8454CCE017B4F212006797D4 /* ForwardDeclarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForwardDeclarations.h; path = MeDeeMSDK/ForwardDeclarations.h; sourceTree = "<group>"; };
+		8454CCE117B4F212006797D4 /* GeneratedMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneratedMessage_Builder.h; path = MeDeeMSDK/GeneratedMessage_Builder.h; sourceTree = "<group>"; };
+		8454CCE217B4F212006797D4 /* GeneratedMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneratedMessage_Builder.m; path = MeDeeMSDK/GeneratedMessage_Builder.m; sourceTree = "<group>"; };
+		8454CCE317B4F212006797D4 /* GeneratedMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneratedMessage.h; path = MeDeeMSDK/GeneratedMessage.h; sourceTree = "<group>"; };
+		8454CCE417B4F212006797D4 /* GeneratedMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneratedMessage.m; path = MeDeeMSDK/GeneratedMessage.m; sourceTree = "<group>"; };
+		8454CCE517B4F212006797D4 /* Message_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message_Builder.h; path = MeDeeMSDK/Message_Builder.h; sourceTree = "<group>"; };
+		8454CCE617B4F212006797D4 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = MeDeeMSDK/Message.h; sourceTree = "<group>"; };
+		8454CCE717B4F212006797D4 /* MutableExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutableExtensionRegistry.h; path = MeDeeMSDK/MutableExtensionRegistry.h; sourceTree = "<group>"; };
+		8454CCE817B4F212006797D4 /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutableExtensionRegistry.m; path = MeDeeMSDK/MutableExtensionRegistry.m; sourceTree = "<group>"; };
+		8454CCE917B4F213006797D4 /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutableField.h; path = MeDeeMSDK/MutableField.h; sourceTree = "<group>"; };
+		8454CCEA17B4F213006797D4 /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutableField.m; path = MeDeeMSDK/MutableField.m; sourceTree = "<group>"; };
+		8454CCEB17B4F213006797D4 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFormat.h; path = MeDeeMSDK/TextFormat.h; sourceTree = "<group>"; };
+		8454CCEC17B4F213006797D4 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFormat.m; path = MeDeeMSDK/TextFormat.m; sourceTree = "<group>"; };
+		8454CCED17B4F213006797D4 /* UnknownFieldSet_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnknownFieldSet_Builder.h; path = MeDeeMSDK/UnknownFieldSet_Builder.h; sourceTree = "<group>"; };
+		8454CCEE17B4F213006797D4 /* UnknownFieldSet_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnknownFieldSet_Builder.m; path = MeDeeMSDK/UnknownFieldSet_Builder.m; sourceTree = "<group>"; };
+		8454CCEF17B4F213006797D4 /* UnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnknownFieldSet.h; path = MeDeeMSDK/UnknownFieldSet.h; sourceTree = "<group>"; };
+		8454CCF017B4F213006797D4 /* UnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnknownFieldSet.m; path = MeDeeMSDK/UnknownFieldSet.m; sourceTree = "<group>"; };
+		8454CCF117B4F213006797D4 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = MeDeeMSDK/Utilities.h; sourceTree = "<group>"; };
+		8454CCF217B4F213006797D4 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = MeDeeMSDK/Utilities.m; sourceTree = "<group>"; };
+		8454CCF317B4F213006797D4 /* WireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WireFormat.h; path = MeDeeMSDK/WireFormat.h; sourceTree = "<group>"; };
+		8454CCF417B4F213006797D4 /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WireFormat.m; path = MeDeeMSDK/WireFormat.m; sourceTree = "<group>"; };
+		8454CD6217B50FD1006797D4 /* MedeemCORE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedeemCORE.h; sourceTree = "<group>"; };
+		8454CD6317B50FD1006797D4 /* MedeemCORE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedeemCORE.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +155,15 @@
 				8454CC8317B4E202006797D4 /* Foundation.framework in Frameworks */,
 				8454CC8517B4E202006797D4 /* CoreGraphics.framework in Frameworks */,
 				8454CC8717B4E202006797D4 /* CoreData.framework in Frameworks */,
+				8454CCC517B4EFB9006797D4 /* libProtocolBuffers.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8454CCA317B4E2DE006797D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8454CCA917B4E2DE006797D4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +173,9 @@
 		8454CC7417B4E202006797D4 = {
 			isa = PBXGroup;
 			children = (
+				8454CD1D17B4F23A006797D4 /* protobuff */,
 				8454CC8817B4E203006797D4 /* MeDeeMSDK */,
+				8454CCAE17B4E2DE006797D4 /* MeDeeMFramework */,
 				8454CC7F17B4E202006797D4 /* Frameworks */,
 				8454CC7E17B4E202006797D4 /* Products */,
 			);
@@ -66,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				8454CC7D17B4E202006797D4 /* MeDeeMSDK.app */,
+				8454CCA717B4E2DE006797D4 /* MeDeeMFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,10 +193,13 @@
 		8454CC7F17B4E202006797D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8454CCC417B4EFB9006797D4 /* libProtocolBuffers.a */,
 				8454CC8017B4E202006797D4 /* UIKit.framework */,
 				8454CC8217B4E202006797D4 /* Foundation.framework */,
 				8454CC8417B4E202006797D4 /* CoreGraphics.framework */,
 				8454CC8617B4E202006797D4 /* CoreData.framework */,
+				8454CCA817B4E2DE006797D4 /* Cocoa.framework */,
+				8454CCAA17B4E2DE006797D4 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,7 +229,127 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8454CCAA17B4E2DE006797D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8454CCAB17B4E2DE006797D4 /* AppKit.framework */,
+				8454CCAC17B4E2DE006797D4 /* CoreData.framework */,
+				8454CCAD17B4E2DE006797D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8454CCAE17B4E2DE006797D4 /* MeDeeMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				8454CCC717B4F072006797D4 /* Protocol.pb.h */,
+				8454CCC817B4F072006797D4 /* Protocol.pb.m */,
+				8454CCB517B4E2DE006797D4 /* MeDeeMFramework.h */,
+				8454CCB617B4E2DE006797D4 /* MeDeeMFramework.m */,
+				8454CD6217B50FD1006797D4 /* MedeemCORE.h */,
+				8454CD6317B50FD1006797D4 /* MedeemCORE.m */,
+				8454CCAF17B4E2DE006797D4 /* Supporting Files */,
+			);
+			path = MeDeeMFramework;
+			sourceTree = "<group>";
+		};
+		8454CCAF17B4E2DE006797D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8454CCB017B4E2DE006797D4 /* MeDeeMFramework-Info.plist */,
+				8454CCB117B4E2DE006797D4 /* InfoPlist.strings */,
+				8454CCB417B4E2DE006797D4 /* MeDeeMFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8454CD1D17B4F23A006797D4 /* protobuff */ = {
+			isa = PBXGroup;
+			children = (
+				8454CCCD17B4F212006797D4 /* AbstractMessage_Builder.h */,
+				8454CCCE17B4F212006797D4 /* AbstractMessage_Builder.m */,
+				8454CCCF17B4F212006797D4 /* AbstractMessage.h */,
+				8454CCD017B4F212006797D4 /* AbstractMessage.m */,
+				8454CCD117B4F212006797D4 /* CodedInputStream.h */,
+				8454CCD217B4F212006797D4 /* CodedInputStream.m */,
+				8454CCD317B4F212006797D4 /* CodedOutputStream.h */,
+				8454CCD417B4F212006797D4 /* CodedOutputStream.m */,
+				8454CCD517B4F212006797D4 /* ConcreteExtensionField.h */,
+				8454CCD617B4F212006797D4 /* ConcreteExtensionField.m */,
+				8454CCD717B4F212006797D4 /* ExtendableMessage_Builder.h */,
+				8454CCD817B4F212006797D4 /* ExtendableMessage_Builder.m */,
+				8454CCD917B4F212006797D4 /* ExtendableMessage.h */,
+				8454CCDA17B4F212006797D4 /* ExtendableMessage.m */,
+				8454CCDB17B4F212006797D4 /* ExtensionField.h */,
+				8454CCDC17B4F212006797D4 /* ExtensionRegistry.h */,
+				8454CCDD17B4F212006797D4 /* ExtensionRegistry.m */,
+				8454CCDE17B4F212006797D4 /* Field.h */,
+				8454CCDF17B4F212006797D4 /* Field.m */,
+				8454CCE017B4F212006797D4 /* ForwardDeclarations.h */,
+				8454CCE117B4F212006797D4 /* GeneratedMessage_Builder.h */,
+				8454CCE217B4F212006797D4 /* GeneratedMessage_Builder.m */,
+				8454CCE317B4F212006797D4 /* GeneratedMessage.h */,
+				8454CCE417B4F212006797D4 /* GeneratedMessage.m */,
+				8454CCE517B4F212006797D4 /* Message_Builder.h */,
+				8454CCE617B4F212006797D4 /* Message.h */,
+				8454CCE717B4F212006797D4 /* MutableExtensionRegistry.h */,
+				8454CCE817B4F212006797D4 /* MutableExtensionRegistry.m */,
+				8454CCE917B4F213006797D4 /* MutableField.h */,
+				8454CCEA17B4F213006797D4 /* MutableField.m */,
+				8454CCEB17B4F213006797D4 /* TextFormat.h */,
+				8454CCEC17B4F213006797D4 /* TextFormat.m */,
+				8454CCED17B4F213006797D4 /* UnknownFieldSet_Builder.h */,
+				8454CCEE17B4F213006797D4 /* UnknownFieldSet_Builder.m */,
+				8454CCEF17B4F213006797D4 /* UnknownFieldSet.h */,
+				8454CCF017B4F213006797D4 /* UnknownFieldSet.m */,
+				8454CCF117B4F213006797D4 /* Utilities.h */,
+				8454CCF217B4F213006797D4 /* Utilities.m */,
+				8454CCF317B4F213006797D4 /* WireFormat.h */,
+				8454CCF417B4F213006797D4 /* WireFormat.m */,
+				8454CCCB17B4F149006797D4 /* Bootstrap.h */,
+				8454CCC617B4EFC7006797D4 /* ProtocolBuffers.h */,
+			);
+			name = protobuff;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8454CCA417B4E2DE006797D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8454CD1F17B5042C006797D4 /* MeDeeMFramework.h in Headers */,
+				8454CCC917B4F072006797D4 /* Protocol.pb.h in Headers */,
+				8454CD1E17B5042C006797D4 /* Protocol.pb.m in Headers */,
+				8454CCCC17B4F149006797D4 /* Bootstrap.h in Headers */,
+				8454CCF517B4F213006797D4 /* AbstractMessage_Builder.h in Headers */,
+				8454CCF717B4F213006797D4 /* AbstractMessage.h in Headers */,
+				8454CCF917B4F213006797D4 /* CodedInputStream.h in Headers */,
+				8454CCFB17B4F213006797D4 /* CodedOutputStream.h in Headers */,
+				8454CCFD17B4F213006797D4 /* ConcreteExtensionField.h in Headers */,
+				8454CCFF17B4F213006797D4 /* ExtendableMessage_Builder.h in Headers */,
+				8454CD0117B4F213006797D4 /* ExtendableMessage.h in Headers */,
+				8454CD0317B4F213006797D4 /* ExtensionField.h in Headers */,
+				8454CD0417B4F213006797D4 /* ExtensionRegistry.h in Headers */,
+				8454CD0617B4F213006797D4 /* Field.h in Headers */,
+				8454CD0817B4F213006797D4 /* ForwardDeclarations.h in Headers */,
+				8454CD0917B4F213006797D4 /* GeneratedMessage_Builder.h in Headers */,
+				8454CD0B17B4F213006797D4 /* GeneratedMessage.h in Headers */,
+				8454CD0D17B4F213006797D4 /* Message_Builder.h in Headers */,
+				8454CD0E17B4F213006797D4 /* Message.h in Headers */,
+				8454CD0F17B4F213006797D4 /* MutableExtensionRegistry.h in Headers */,
+				8454CD1117B4F213006797D4 /* MutableField.h in Headers */,
+				8454CD1317B4F213006797D4 /* TextFormat.h in Headers */,
+				8454CD1517B4F213006797D4 /* UnknownFieldSet_Builder.h in Headers */,
+				8454CD1717B4F213006797D4 /* UnknownFieldSet.h in Headers */,
+				8454CD1917B4F213006797D4 /* Utilities.h in Headers */,
+				8454CD1B17B4F213006797D4 /* WireFormat.h in Headers */,
+				8454CD6417B50FD1006797D4 /* MedeemCORE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8454CC7C17B4E202006797D4 /* MeDeeMSDK */ = {
@@ -125,6 +368,24 @@
 			productName = MeDeeMSDK;
 			productReference = 8454CC7D17B4E202006797D4 /* MeDeeMSDK.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8454CCA617B4E2DE006797D4 /* MeDeeMFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8454CCB817B4E2DE006797D4 /* Build configuration list for PBXNativeTarget "MeDeeMFramework" */;
+			buildPhases = (
+				8454CCA217B4E2DE006797D4 /* Sources */,
+				8454CCA317B4E2DE006797D4 /* Frameworks */,
+				8454CCA417B4E2DE006797D4 /* Headers */,
+				8454CCA517B4E2DE006797D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeDeeMFramework;
+			productName = MeDeeMFramework;
+			productReference = 8454CCA717B4E2DE006797D4 /* MeDeeMFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,6 +409,7 @@
 			projectRoot = "";
 			targets = (
 				8454CC7C17B4E202006797D4 /* MeDeeMSDK */,
+				8454CCA617B4E2DE006797D4 /* MeDeeMFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +426,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8454CCA517B4E2DE006797D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8454CCB317B4E2DE006797D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -177,6 +447,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8454CCA217B4E2DE006797D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8454CCB717B4E2DE006797D4 /* MeDeeMFramework.m in Sources */,
+				8454CCCA17B4F072006797D4 /* Protocol.pb.m in Sources */,
+				8454CCF617B4F213006797D4 /* AbstractMessage_Builder.m in Sources */,
+				8454CCF817B4F213006797D4 /* AbstractMessage.m in Sources */,
+				8454CCFA17B4F213006797D4 /* CodedInputStream.m in Sources */,
+				8454CCFC17B4F213006797D4 /* CodedOutputStream.m in Sources */,
+				8454CCFE17B4F213006797D4 /* ConcreteExtensionField.m in Sources */,
+				8454CD0017B4F213006797D4 /* ExtendableMessage_Builder.m in Sources */,
+				8454CD0217B4F213006797D4 /* ExtendableMessage.m in Sources */,
+				8454CD0517B4F213006797D4 /* ExtensionRegistry.m in Sources */,
+				8454CD0717B4F213006797D4 /* Field.m in Sources */,
+				8454CD0A17B4F213006797D4 /* GeneratedMessage_Builder.m in Sources */,
+				8454CD0C17B4F213006797D4 /* GeneratedMessage.m in Sources */,
+				8454CD1017B4F213006797D4 /* MutableExtensionRegistry.m in Sources */,
+				8454CD1217B4F213006797D4 /* MutableField.m in Sources */,
+				8454CD1417B4F213006797D4 /* TextFormat.m in Sources */,
+				8454CD1617B4F213006797D4 /* UnknownFieldSet_Builder.m in Sources */,
+				8454CD1817B4F213006797D4 /* UnknownFieldSet.m in Sources */,
+				8454CD1A17B4F213006797D4 /* Utilities.m in Sources */,
+				8454CD1C17B4F213006797D4 /* WireFormat.m in Sources */,
+				8454CD6517B50FD1006797D4 /* MedeemCORE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -184,6 +482,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				8454CC8C17B4E203006797D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8454CCB117B4E2DE006797D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8454CCB217B4E2DE006797D4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -255,6 +561,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeDeeMSDK/MeDeeMSDK-Prefix.pch";
 				INFOPLIST_FILE = "MeDeeMSDK/MeDeeMSDK-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MeDeeMSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -266,8 +576,61 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeDeeMSDK/MeDeeMSDK-Prefix.pch";
 				INFOPLIST_FILE = "MeDeeMSDK/MeDeeMSDK-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MeDeeMSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8454CCB917B4E2DE006797D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeDeeMFramework/MeDeeMFramework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "MeDeeMFramework/MeDeeMFramework-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8454CCBA17B4E2DE006797D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeDeeMFramework/MeDeeMFramework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "MeDeeMFramework/MeDeeMFramework-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -288,6 +651,14 @@
 			buildConfigurations = (
 				8454CCA017B4E203006797D4 /* Debug */,
 				8454CCA117B4E203006797D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8454CCB817B4E2DE006797D4 /* Build configuration list for PBXNativeTarget "MeDeeMFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8454CCB917B4E2DE006797D4 /* Debug */,
+				8454CCBA17B4E2DE006797D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
